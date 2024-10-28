@@ -10,11 +10,11 @@
 
 ## Description
 
-The Translation App is a web application that allows users to translate text between different languages. The app supports automatic saving of translation history, providing easy access to previous results.
+The Translation App is a web application that allows users to translate text between different languages using the MyMemory API. The app supports automatic saving of translation history, providing easy access to previous results.
 
 ## Features
 
-- **Text Translation**: Users can input text in one language and receive translations in another.
+- **Text Translation**: Users can input text in one language and receive translations in another using the MyMemory API.
 - **Translation History**: Translations are automatically saved, allowing easy browsing of previous translations.
 - **Copy to Clipboard**: Users can copy translation results with a single click.
 - **Theme Switching**: The app allows toggling between light and dark themes.
@@ -23,7 +23,8 @@ The Translation App is a web application that allows users to translate text bet
 
 - **React**: Used for building the user interface.
 - **Next.js**: A framework for building React applications.
-- **Axios**: Used for communication with external translation APIs (if applicable).
+- **Axios**: Used for communication with the MyMemory translation API.
+- **MyMemory API**: The translation service utilized for obtaining language translations.
 - **Bulma**: A CSS framework for styling the application.
 - **TypeScript**: A programming language for better type verification.
 
