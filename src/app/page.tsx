@@ -1,10 +1,14 @@
-// app/page.tsx
-import TranslateForm from './TranslateForm';
+import ThemeSwitcher from '@/components/ThemeSwitcher';
+import TranslateForm from '../components/TranslateForm';
 
 export default function Home() {
-  return (
-    <main>
-      <TranslateForm />
-    </main>
-  );
+	return (
+		<div className="hero">
+			<div className="hero-body">
+				<h1 className="title has-text-centered is-1">Translator App</h1>
+				<ThemeSwitcher />
+				<TranslateForm />
+			</div>
+		</div>
+	);
 }

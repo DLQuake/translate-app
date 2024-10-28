@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Translation App
 
-## Getting Started
+## Table of Contents
 
-First, run the development server:
+- [Description](#description)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Description
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The Translation App is a web application that allows users to translate text between different languages. The app supports automatic saving of translation history, providing easy access to previous results.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Text Translation**: Users can input text in one language and receive translations in another.
+- **Translation History**: Translations are automatically saved, allowing easy browsing of previous translations.
+- **Copy to Clipboard**: Users can copy translation results with a single click.
+- **Theme Switching**: The app allows toggling between light and dark themes.
 
-## Learn More
+## Technologies
 
-To learn more about Next.js, take a look at the following resources:
+- **React**: Used for building the user interface.
+- **Next.js**: A framework for building React applications.
+- **Axios**: Used for communication with external translation APIs (if applicable).
+- **Bulma**: A CSS framework for styling the application.
+- **TypeScript**: A programming language for better type verification.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository:
 
-## Deploy on Vercel
+   ```bash
+   git clone https://github.com/DLQuake/translate-app.git
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Navigate to the project directory:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   cd translate-app
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Run the application:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and go to [http://localhost:3000](http://localhost:3000).
+
+## Usage
+
+1. Select the language you want to translate from and the language you want to translate to.
+2. Enter the text you want to translate.
+3. Click the "Translate" button.
+4. The translation will be displayed on the right side. You can copy it to your clipboard.
+5. The translation history will be displayed below, with the ability to delete individual translations.
